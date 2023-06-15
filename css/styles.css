@@ -212,6 +212,7 @@ color: #434455;
 
 
 .footer-txt {
+color: var(--color-cloud) ;
 }
 
 /* portfolio */
@@ -230,6 +231,7 @@ color: #434455;
 	line-height: 150%;
 	letter-spacing: 0.02em;
 	color: #434455;
+	width: 360;
 }
 
 .main-btn-p {

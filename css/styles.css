@@ -3,13 +3,12 @@
 --primary-font: Roboto, sans-serif;
 --seconary-font: Raleway, sans-serif;
 	/* color */
---main-txt-cl: rgba(67, 68, 85, 1);
---lighe-txt-cl: rgba(255, 255, 255, 1);
---accent-txt-cl: rgba(64, 75, 191, 1);
---background-cl: rgba(46, 47, 66, 1);
---normal-txt-cl: rgba(77, 90, 229, 1);
---color-cloud: rgba(244, 244, 253, 1);
---white-background: rgba(255, 255, 255, 1);
+--main-txt-cl: #434455;
+--lighe-txt-cl: #FFFFFF;
+--accent-txt-cl: #404BBF;
+--background-cl: #2E2F42;
+--normal-txt-cl: #4D5AE5;
+--color-cloud: #F4F4FD;
 }
 
 
@@ -20,7 +19,7 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
-	background-color: var(--white-background);
+	background-color: var(--lighe-txt-cl);
 	}
 
 .logo {

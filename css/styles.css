@@ -3,40 +3,23 @@
 --primary-font: Roboto, sans-serif;
 --seconary-font: Raleway, sans-serif;
 	/* color */
---main-txt-cl: #434455;
---lighe-txt-cl: #FFFFFF;
---accent-txt-cl: #404bbf;
---background-cl: #2e2f42;
---normal-txt-cl: #4d5ae5;
-}
-
-:root {
-	--color-iris: #4d5ae5;
-	--color-ocean: #404bbf;
-	--color-navy-blue: #2e2f42;
-	--color-green: #31d0aa;
-	--color-slate: #434455;
-	--color-light-slate: #8e8f99;
-	--color-cornflower: #e7e9fc;
-	--color-cloud: #f4f4fd;
-	--color-navy-blue-modal: #2e2f42;
-	--color-grey: #2e2f42;
-	--color-white: #ffffff;
-	--color-dairy: #fcfcfc;
+--main-txt-cl: rgba(67, 68, 85, 1);
+--lighe-txt-cl: rgba(255, 255, 255, 1);
+--accent-txt-cl: rgba(64, 75, 191, 1);
+--background-cl: rgba(46, 47, 66, 1);
+--normal-txt-cl: rgba(77, 90, 229, 1);
+--color-cloud: rgba(244, 244, 253, 1);
 }
 
 
 /* Base styles */
 body {
     font-family: var(--primary-font);
-	font-style: normal;
-	font-weight: 400;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--main-txt-cl);
-	background-color: #FFFFFF;
-}
+	}
 
 .logo {
 	font-family: var(--seconary-font);
@@ -48,14 +31,14 @@ body {
 	color: var(--normal-txt-cl);
 }
 .logo-dark{
-	color: #2E2F42;
+	color: var(--background-cl);
 }
 .logo-light{
-	color: #f4f4fd;
+	color: var(--color-cloud);
 }
 
 .background-team {
-	background-color: #F4F4FD;
+	background-color: var(--color-cloud);
 }
 
 /* reset */
@@ -89,12 +72,11 @@ body {
 .header-list {
 }
 .header-item{
-	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: var(--color-navy-blue-modal);
+	color: var(--background-cl);
 }
 .header-item:hover,
 .header-item:focus {
@@ -106,11 +88,10 @@ body {
 .header-contakt-list{
 }
 .header-contakt{
-	font-weight: 400;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--main-txt-cl);
 }
 .header-contakt:hover,
 .header-contakt:focus {
@@ -123,12 +104,11 @@ body {
     background-color: var(--background-cl);
 }
 .main-title {
-font-weight: 700;
 font-size: 56px;
-line-height: 107%;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--lighe-txt-cl);
 }
 .main-btn {
 	background-color:var(--normal-txt-cl);
@@ -144,68 +124,62 @@ color: #FFFFFF;
 .main-btn:hover,
 .main-btn:focus{
 	color: var(--lighe-txt-cl);
-	background-color: #404BBF
+	background-color: var(--accent-txt-c)
 }
 .main-sabject {
 }
 .main-list {
-	background-color: #FFFFFF;
+	background-color: var(--lighe-txt-cl);
 }
 .main-item {
-font-weight: 700;
 font-size: 56px;
-line-height: 107%;
-text-align: center;
+line-height: 1.07;
 letter-spacing: 0.02em;
-color: #FFFFFF;
 }
 .main-subtitle {
 font-weight: 500;
 font-size: 20px;
-line-height: 120%;
+line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--background-cl);
 }
 .main-text {
-font-weight: 400;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--main-txt-cl);
 }
 .main-subject {
-font-weight: 700;
 font-size: 36px;
-line-height: 111%;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--background-cl);
     
 }
 .main-img {
 }
 .main-team {
-	background-color: #FFFFFF
+	background-color: var(--lighe-txt-cl)
 }
 .main-team-img {
 }
 .main-team-name {
 font-weight: 500;
 font-size: 20px;
-line-height: 120%;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--background-cl);
 
 }
 .main-team-profession {
-font-weight: 400;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--main-txt-cl);
 }
 
 /* footer */
@@ -220,17 +194,16 @@ color: var(--color-cloud) ;
 .portfolio {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 120%;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
-	color: #2E2F42;
+	color: var(--background-cl);
 }
 
 .portfolio-p {
-	font-weight: 400;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;	
+	color: var(--main-txt-cl);	
 }
 
 .main-btn-p {
@@ -247,5 +220,5 @@ color: var(--color-cloud) ;
 .main-btn-p:hover,
 .main-btn-p:focus{
 	color: var(--lighe-txt-cl);
-	background-color: #404BBF
+	background-color: var(--accent-txt-cl)
 }
